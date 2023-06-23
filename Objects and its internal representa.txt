@@ -1,0 +1,30 @@
+               Objects and its internal representation in Javascript
+
+An object is a collection of properties, where each property is a key-value pair.
+
+The syntax for adding a property to an object is :
+         
+    Key: value
+
+To create an object for example:
+
+Let student = {
+          name: “Abc”
+          rollno: 1
+          std:5
+}
+
+• In the above example student is the object name.
+• It has 3 keys name, rollno , std
+• Objects keys have to be unique
+• The key and value enclosed between { } open and close curly parentheses
+• To get the value we should use . dot operator
+
+Console.log(student.name);
+Console.log(student.std);
+
+The above codes will give the following output :
+
+//Abc
+//5 
+
